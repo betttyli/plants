@@ -1,0 +1,885 @@
+@font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Inter"),
+         url("/assets/fonts/Inter-Bold.woff2") format("woff2"),
+  }
+
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inter"),
+         url("/assets/fonts/Inter-Regular.woff2") format("woff2"),
+  }
+
+  @font-face {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Inika"),
+        url("assets\fonts\Inika-Regular.ttf") format("woff2")
+  }
+  
+  @font-face {
+    font-family: "Inika";
+    font-style: normal;
+    font-weight: 700;
+    src: local("Inika"),
+        url("assets\fonts\Inika-Bold.ttf") format("woff2")
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+
+/* ====================================================================================================================================== */
+
+.header {
+    width: 100%;
+    height: 134px;
+    background-color:  #edf2ec;
+}
+
+.cont {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    max-width: 1222px;
+}
+
+.headercont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoh {
+    display: flex;
+    align-items: center;
+}
+
+.logoh h2 {
+    font-family: "Inika";
+    font-weight: 400;
+    font-size: 16px;
+    color: #000;
+}
+
+
+ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 46px;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Inika";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 312%;
+}
+
+li a:hover {
+    color: orangered;
+}
+
+/* ====================================================================================================================================== */
+
+
+.sectionone {
+    background-color: #edf2ec;
+    width: 100%;
+}
+
+.sectionfl {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 62px;
+    padding-bottom: 62.64px;
+    flex-wrap: wrap;
+}
+
+.aboutplants {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 549px;
+    gap: 42px;
+}
+
+.wegrow {
+    color:  #717171;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+span {
+    color: #499A18;
+}
+
+.aboutplants p {
+    width: 525px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #636060;
+    line-height: 175%;
+}
+
+.button {
+    background: rgba(224, 103, 51, 0);
+    border: 2px solid #e06733;
+    border-radius: 10px;
+    width: 158px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #000;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.button:hover {
+    background: #e06733;
+    color:white;
+}
+
+.line {
+    display: none;
+}
+
+
+/* ====================================================================================================================================== */
+
+
+.sectiontwo {
+    width: 100%;
+    background-color: white;
+    padding: 93px 0 94px 0;
+    box-sizing: border-box;
+}
+
+.monsteraandtext {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.monsteraandtext h2 {
+    margin: 0;
+    font-family: "Inika";
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+}
+
+.monsteraandtext p {
+    margin: 0;
+    font-family: "Inter";
+    font-weight: 400;
+    line-height: 150%;
+    color: #636060;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    max-width: 605px;
+}
+
+.title h2 {
+    font-size: 40px;
+    color: #499a18;
+}
+
+.title h2 span {
+    color: #e06733;
+}
+
+.title p {
+    font-size: 20px;
+    color: #636060;
+}
+
+.monsteraandtext img {
+    width: 464px;
+    height: 479px;
+}
+
+
+/* ====================================================================================================================================== */
+
+
+.sectionthree {
+    background: #edf2ec;
+}
+
+.service {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.servicetitle h2 {
+    font-family: "Inika";
+    font-weight: 400;
+    font-size: 40px;
+    color: #499a18;
+}
+
+.buttonthree {
+    display: flex;
+    margin-left: 142px;
+    gap: 38px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.buttonthree .button {
+    font-family: "Inika";
+    font-weight: 400;
+    font-size: 20px;
+    color: #e06733;
+    width: 161px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+
+.buttonthree .button:hover {
+    color: white;
+}
+
+.cartfl {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 55px;
+    padding-bottom: 122px;
+    box-sizing: border-box;
+    padding-top: 90px;
+}
+
+.cart {
+    border: 3px solid grey;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.carth {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #e06733;
+}
+
+.cartp {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: #717171;
+    padding-bottom: 36px;
+}
+
+
+
+/* ====================================================================================================================================== */
+
+.sectionfour {
+    background-color: white;
+     width: 100%; /* это ширина */
+    padding-bottom: 88px;
+}
+
+.sectionFpr {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.prices {
+    font-size: 40px;
+    display: flex;
+    font-family: "Inter";
+    font-weight: 700;
+    color: #000;
+    font-family: var(--font-family);
+    line-height: 125%;
+    flex-direction: column;
+    
+}
+
+.contactus {
+    border: lightgray solid 2px;
+    border-radius: 15px;
+    width: 332px;
+    height: 282px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.grb {
+    display: flex;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    background: #edf2ec;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #000;
+}
+
+.circle {
+    display: flex;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle img {
+    width: 6px;
+    height: 4px;
+    cursor: pointer;
+}
+
+.flcontact {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 139px;
+    box-sizing: border-box;
+}
+
+.listcont {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.listcont h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    text-align: right;
+    color: #000;
+}
+
+
+.listcont .button {
+    margin-bottom: 38px;
+    margin-top: 35px;
+    font-family: "Inika";
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #e06733;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.listcont .button:hover {
+    color: white;
+}
+
+.listcont img {
+    width: 152px;
+    height: 175px;
+}
+
+
+/* ====================================================================================================================================== */
+
+
+.sectionfife {
+    background-color: #edf2ec;;
+}
+
+.contactuswm {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.contactuswm h3 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #499a18;
+    font-family:"Inika";
+}
+
+
+.city {
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    background: #d6e7d2;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 148px;
+}
+
+.city h4 {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 200%;
+    color: #717171;
+    margin-left: 20px;
+}
+
+.circlet {
+    background-color: #aea1a1;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 35px;
+}
+
+.circlet img {
+    width: 4px;
+    height: 3px;
+    cursor: pointer;
+}
+
+
+
+/* ====================================================================================================================================== */
+
+
+.footer {
+    background-color: white;
+    width: 100%;
+    height: 130px;
+}
+
+.footermr {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.footermr p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+    font-family: "Inter";
+}
+
+.kopigit {
+    display: flex;
+    gap: 20px;
+    align-items: center;  
+}
+
+.kopigit img {
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+}
+
+.kopigit p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 250%;
+    color: #000;
+    font-family: "Inter";
+}
+
+.znachky {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px)  {
+    .sectionfl {
+        padding: 40px 0;
+    }
+
+    .sectionfl img {
+        width: 280px;
+        height: 254px;
+        order: 1;
+    }
+
+    .aboutplants {
+        width: 346px;
+        gap: 30px;
+    }
+
+    .wegrow {
+        font-size: 35px;
+    }
+
+    .aboutplants p {
+        width: 346px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 158px;
+        height: 44px;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .sectiontwo {
+        padding: 40px 0 95px 0;
+    }
+
+    .monsteraandtext {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .title h2 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .title {
+        max-width: 668px;
+    }
+
+    .monsteraandtext img {
+        width: 250px;
+        height: 258px;
+    }
+
+    .sectionthree {
+        padding: 60px 0 70px 0;
+    }
+
+    .service {
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .servicetitle {
+        font-size: 35px;
+    }
+
+    .buttonthree {
+        margin: 0;
+    }
+
+    .cartfl {
+        padding: 0;
+    }
+
+    .cart {
+        width: 281px;
+        height: 450px;
+    }
+
+    .cart img {
+        width: 280px;
+        height: 350px;
+    }
+
+    .carttext {
+        width: 201px;
+        text-align: center;
+    }
+
+    .prices {
+        font-size: 35px;
+        display: block;
+        text-align: left;
+    }
+
+    .prices h3 {
+        font-size: 25px;
+        text-align: right;
+    }
+
+    .flcontact {
+        height: 282px;
+    }
+
+    .grb h3 {
+       font-size: 20px;
+       padding: 0;
+    }
+
+    .listcont .button {
+        height: 50px;
+        padding: 12px 0;
+        margin: 0;
+    }
+
+    .contactuswm {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .contactuswm img {
+        width: 200px;
+        height: 249px;
+        order: 3;
+        margin-top: 250px;
+    }
+
+    .contactuswm h3 {
+        font-size: 40px;
+    }
+
+    .city {
+        margin-top: 100px;
+    }
+
+    .circlet img {
+        width: 6px;
+        height: 4px;
+    }
+
+    .footermr {
+        flex-direction: column;
+        margin-top: 33px;
+        gap: 25px;
+    }
+
+    .footermr p {
+        line-height: 0;
+    }
+
+}
+
+@media screen and (max-width: 609px){
+      ul {
+        display: none;
+    }
+
+      .linefour {
+        display: flex;
+        flex-direction: column;
+        width: 40px;
+        height: 24px;
+        justify-content: space-around;
+    }
+
+     .line {
+        width: 40px;
+        height: 2px;
+        background-color: #717171;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    
+    .header {
+        height: 96px;
+    }
+
+    .wegrow {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .aboutplants p {
+        font-size: 16px;
+    }
+
+    .aboutplants p br {
+        display: none;
+    }
+
+    .sectionfl {
+        padding: 24px 0;
+    }
+
+    .sectionfl img {
+        display: none;
+    }
+
+    .aboutplants {
+        gap: 20px;
+    }
+
+    .title h2 {
+        font-size: 25px;
+    }
+
+    .title p {
+        font-size: 15px;
+    }
+
+    .monsteraandtext img {
+        width: 150px;
+        height: 147px;
+    }
+
+    .title {
+        gap: 21px;
+    }
+
+    .monsteraandtext {
+        gap: 0;
+    }
+
+    .sectiontwo {
+        padding: 30px 0 30px 0;
+    }
+
+    .sectionthree {
+        padding: 30px 0 30px 0;
+    }
+
+    .service {
+        gap: 38px;
+    }
+
+    .servicetitle h2 {
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .buttonthree .button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .buttonthree {
+        gap: 10px;
+    }
+
+    .cartfl {
+        justify-content: center;
+    }
+
+    .sectionFpr {
+        justify-content: center;
+    }
+
+    .prices {
+        display: flex;
+        align-items: center;
+    }
+
+    .prices h2 {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+
+    .contactus {
+        width: 224px;
+        height: 235px;
+    }
+
+    .grb {
+        width: 180px;
+        height: 50px;
+    }
+
+    .grb h3 {
+        font-size: 15px;
+    }
+
+    .sectionfour {
+        padding-bottom: 40px;
+    }
+
+    .flcontact{
+        padding: 0;
+        height: 100%;
+    }
+
+    .listcont {
+        align-items: center;
+    }
+
+    .listcont h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .listcont img {
+        display: none;
+    }
+
+    .listcont .button {
+        width: 121px;
+        height: 35px;
+        font-size: 15px;
+    }
+
+    .contactuswm h3 {
+        font-size: 25px;
+    }
+
+    .contactuswm img {
+        width: 100px;
+        height: 124px;
+        margin-top: 132px;
+    }
+
+    .circlet img {
+        width: 4px;
+        height: 4px;
+    }
+    
+    .city {
+        width: 300px;
+        margin-top: 80px;
+    }
+}
